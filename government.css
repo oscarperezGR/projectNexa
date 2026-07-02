@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.roboto-normal {
+.roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -9,7 +9,7 @@
     "wdth" 100;
 }
 
-.roboto-title {
+.robotoTitle {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -20,7 +20,7 @@
   color: #00674F;
 }
 
-.roboto-sub-title {
+.robotoSubTitle {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -78,4 +78,27 @@ div > h3 {
 }
 h1 {
   margin: 0;
+}
+main {
+  background-color: #E4E4E4;
+  margin: 0 1.823vw 1.823vw 1.823vw;
+  border-radius: 20px;
+}
+main img {
+  width: 506px;
+  height: 355px;
+}
+main>div {
+  margin: 55px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+main>div>div {
+  margin-left: 171px;
+}
+main>div>div>p {
+  font-size: 2em;
 }
