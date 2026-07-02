@@ -57,6 +57,25 @@
   line-height: 1;    	
 }
 
+.identityRobotoNormalVignetteWithDot {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  text-align: justify;
+  font-size: 24px;
+  /*line-height: 0.5;  */
+  padding-left: 20px;   
+  margin: 0;
+}
+
+.identityRobotoNormalVignetteWithDot li {
+  list-style-type: disc; 
+  margin-bottom: 6px;   
+  line-height: 1;      
+}
 
 body {
     margin: 0;
@@ -217,3 +236,16 @@ body {
   border-radius: 0 0 8px 8px; /* Redondea solo las esquinas inferiores */
 }
 
+.identityBoldText {
+  font-weight: bold;
+}
+
+
+
+
+
+.identityMidpoint {
+    color: #333333;
+    font-weight: normal; /* Evita que herede la negrita del texto azul */
+    padding: 0 4px;      /* Le da un pequeño espacio respacio a los lados */
+}
