@@ -25,3 +25,8 @@ main {background-color: #e4e4e4; max-width: 1450px; border-radius: 12px; margin:
 .celebration-text {flex: 1; margin-left: 150px;}
 .gastronomy {background-color: #ffffff; border-radius: 12px; margin-left: 50px; margin-top: 20px; margin-bottom: 20px; padding: 30px; font-family: 'Roboto', sans-serif; font-size: 18px; align-items: right; text-align: left; display: flex; flex-direction: row; justify-content: space-between;}
 .gastronomy-text {flex: 1; margin-right: 20px;}
+
+footer {background-color: #e4e4e4; color: #000000; padding: 0px; display: flex; font-family: 'Roboto', sans-serif; font-size: 16px; border-radius: 12px; max-width: 1450px; margin: 30px auto; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);}
+.footer1 {flex: 1; text-align: left; margin-left: 120px;}
+.footer2 {flex: 2; text-align: left; font-size: 18px; margin-left: 400px;} 
+.footer3 {flex: 3; text-align: left; margin-left: 180px; margin-top: 30px;}
