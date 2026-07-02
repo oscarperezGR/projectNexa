@@ -17,7 +17,6 @@
   font-variation-settings:
     "wdth" 100;
   font-size: 8em;
-  color: #00674F;
 }
 
 .robotoSubTitle {
@@ -27,7 +26,6 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-  color: #00674F;
 }
 img {
   border-radius: 20px;
@@ -78,18 +76,23 @@ div > h3 {
 }
 h1 {
   margin: 0;
+  color: #00674F;
+}
+h3 {
+    color: #00674F;
 }
 main {
   background-color: #E4E4E4;
   margin: 0 1.823vw 1.823vw 1.823vw;
   border-radius: 20px;
+  padding: 55px;
 }
 main img {
   width: 506px;
   height: 355px;
 }
 main>div {
-  margin: 55px;
+  margin-bottom: 55px;
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 50px;
@@ -101,4 +104,36 @@ main>div>div {
 }
 main>div>div>p {
   font-size: 2em;
+}
+main section {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 75px 55px;
+}
+main section div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 75px;
+}
+main section div>div {
+  display: flex;
+  flex-direction: column;
+}
+main section h4 {
+  font-size: 2em;
+}
+main section p {
+  font-size: 1.5em;
+}
+main section ol {
+  font-size: 1.5em;
+}
+.imageLeft {
+  padding-left: 227px;
+}
+.imageRight{
+  padding-right: 227px;
+}
+span {
+  font-weight: bold;
 }
