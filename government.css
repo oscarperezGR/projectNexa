@@ -39,7 +39,6 @@ body {
 header {
   position: relative;
   margin: 1.823vw;
-  overflow: hidden;
 }
 header img {
   width: 100%;
@@ -62,7 +61,6 @@ nav {
 nav a {
   margin: 0;
   color: #00674F;
-  text-decoration: underline;
   margin-left: 73px;
   margin-right: 73px;
   font-size: 1.5em;
