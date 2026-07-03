@@ -80,6 +80,54 @@ body {
     margin: 0;
 }
 
+.identityNav {
+  position: absolute;   
+  top: 40px;            
+  left: 50%;            
+  transform: translateX(-50%); 
+  z-index: 10;          
+  background-color: #E4E4E480; 
+  border-radius: 20px;         
+  padding: 12px 24px;
+  width: 90%;                  
+  max-width: 1740px;
+}
+
+
+.identityNavLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* Distribuye los elementos horizontalmente */
+  align-items: center;
+}
+
+
+
+/* 2. Al pasar por encima (Hover): Todo se vuelve rojo automáticamente */
+.identityLinks:hover {
+  color: red;
+}
+
+.identityLinks {
+  /* 👇 AQUÍ INTEGRAMOS TODA LA TIPOGRAFÍA ROBOTO DE TU SUBTÍTULO */
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 32px;	
+  line-height: 1;    
+
+  /* 👇 Mantenemos tus estilos de diseño anteriores para el menú */
+  color: #00674F;
+  text-decoration: underline;
+  text-underline-offset: 5px; /* Separa el subrayado para que no choque con la fuente Roboto */
+  padding: 6px 12px;
+  display: inline-block;
+}
+
 .identityBanner {
   width: 100%;             
   max-width: 1850px;       /* Límite máximo para pantallas gigantes */
@@ -95,10 +143,10 @@ body {
    
  
 .identityBanner img {
-  width: 100%;             /* Se estira al 100% del ancho de su padre */
-  height: auto;            /* La altura se calcula sola de forma proporcional */
-  display: block;          /* Quita espacios vacíos innecesarios debajo de la foto */
-   
+  width: 100%;             /* Se estira al ancho completo disponible */
+  height: auto;            /* Vuelve a ponerlo en 'auto' para que la altura sea proporcional */
+  max-height: none;        /* Elimina cualquier tope de altura si lo tenías */
+  display: block;          /* Elimina espacios fantasmas debajo */
 }
 
 
