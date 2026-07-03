@@ -27,6 +27,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+* {
+  box-sizing: border-box;
+}
 img {
   border-radius: 20px;
 }
@@ -80,6 +83,9 @@ h1 {
 }
 h3 {
     color: #00674F;
+}
+h4 {
+  margin: 0;
 }
 main {
   background-color: #E4E4E4;
@@ -136,4 +142,42 @@ main section ol {
 }
 span {
   font-weight: bold;
+}
+footer {
+  background-color: #E4E4E4;
+  border-radius: 20px;
+  margin: 0 1.823vw 1.823vw 1.823vw;
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+footer section p {
+  margin: 0;
+}
+footer section div {
+  justify-content: center;
+  align-items: center;
+}
+.footerName {
+  padding: 0;
+  margin: 0;
+  width: 7%;
+}
+.footerName p:first-child {
+  font-weight: 700;
+  font-size: 30px;
+}
+.footerName p:last-child {
+  font-style: italic;
 }
