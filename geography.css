@@ -61,5 +61,47 @@ nav a{
   color:#00674f;
   margin-left:73px;
   margin-right:73px;
-  font: size 3.5em;
+  font-size: 1.5em;
+}
+main{
+  background-color: #e4e4e4;
+  margin:1.823vw 1.823vw 1.823vw 1.823vw;
+  border-radius:20px;
+  padding:55px;
+
+}
+main img{
+  width: 506px;
+  height: 355px;
+  
+
+}
+img{
+  border-radius:20px;
+}
+main>div{
+  background-color:white;
+  padding:50px;
+  border-radius:20px;
+  margin-bottom:55px;
+  display:flex;
+  flex-direction:row;
+
+}
+main>div>div{
+  margin-left:171px;
+}
+h3{
+  font-size: 2.5em;
+  margin-top:0;
+  color:#00674f;
+}
+main>div>div>p{
+  font-size:2em;
+}
+section{
+  background-color:white;
+  padding:50px;
+  border-radius:20px;
+  margin-bottom:55px;
 }
