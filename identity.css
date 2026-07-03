@@ -324,3 +324,38 @@ body {
     font-weight: normal; 
     padding: 0 4px;      
 }
+
+footer {
+  background-color: #E4E4E4;
+  border-radius: 20px;
+  margin: 0 1.823vw 1.823vw 1.823vw;
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+footer section p {
+  margin: 0;
+}
+.identityFooterName {
+  padding: 0;
+  margin: 0;
+  width: 7%;
+}
+.identityFooterName p:first-child {
+  font-weight: 700;
+  font-size: 30px;
+}
+.identityFooterName p:last-child {
+  font-style: italic;
+}
