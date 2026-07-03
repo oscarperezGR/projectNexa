@@ -68,11 +68,60 @@ body {
     border-radius: 10px;
     padding: 25px;
     min-height: 160px;
+    padding: 25px;
 }
 
 .card + .card {
     margin-top: 25px;
 }
+
+.card-intro {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 40px;
+    align-items: center;
+    overflow: hidden;
+}
+.card-intro img{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+    border-radius: 10px;
+}
+
+.card-aether {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 40px;
+    align-items: center;
+    overflow: hidden;
+}
+.card-aether img{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+    border-radius: 10px;
+}
+.card-text h2 {
+  color: #007060;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.card-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
 
 .footer {
     margin-top: 20px;
