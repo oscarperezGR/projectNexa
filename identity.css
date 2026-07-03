@@ -9,6 +9,9 @@
     "wdth" 100;
   font-size: 128px;
   line-height: 1;    
+  margin: 0;                    
+  padding: 0;                   
+
 }
 
 .identityRobotoTitleCodeCons{
@@ -19,8 +22,12 @@
   font-variation-settings:
     "wdth" 100;
 	font-size: 40px;
-	line-height: 1;    /*ALTURA DE LINEA 100% */
+	line-height: 1;    
+  margin: -5px 0 0 0;          
+  padding: 0;                   
 }
+
+
 
 .identityRobotoTitleIntro{
   font-family: "Roboto", sans-serif;
@@ -99,19 +106,15 @@ body {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-around; /* Distribuye los elementos horizontalmente */
+  justify-content: space-around; 
   align-items: center;
 }
 
-
-
-/* 2. Al pasar por encima (Hover): Todo se vuelve rojo automáticamente */
 .identityLinks:hover {
   color: red;
 }
 
 .identityLinks {
-  /* 👇 AQUÍ INTEGRAMOS TODA LA TIPOGRAFÍA ROBOTO DE TU SUBTÍTULO */
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -119,36 +122,71 @@ body {
   font-variation-settings: "wdth" 100;
   font-size: 32px;	
   line-height: 1;    
-
-  /* 👇 Mantenemos tus estilos de diseño anteriores para el menú */
   color: #00674F;
   text-decoration: underline;
-  text-underline-offset: 5px; /* Separa el subrayado para que no choque con la fuente Roboto */
+  text-underline-offset: 5px; 
   padding: 6px 12px;
   display: inline-block;
 }
 
 .identityBanner {
   width: 100%;             
-  max-width: 1850px;       /* Límite máximo para pantallas gigantes */
-  margin: 0 auto;          /* Centra el banner en la pantalla */
-  position: relative;      /* Permite que el menú se acople encima después */
-  overflow: hidden;        /* Recorta cualquier sobrante de la foto */
+  max-width: 1850px;       
+  margin: 0 auto;          
+  position: relative;      
+  overflow: hidden;        
   
-  box-sizing: border-box;  /* Hace que el borde se dibuje hacia ADENTRO y no hacia afuera */
+  box-sizing: border-box;  
   border-width: 10px;
   border-style: solid;
-  border-color: #1E4B9C;    /*BORDE AZUL COBALTO */
+  border-color: #1E4B9C;    
 }
    
  
 .identityBanner img {
-  width: 100%;             /* Se estira al ancho completo disponible */
-  height: auto;            /* Vuelve a ponerlo en 'auto' para que la altura sea proporcional */
-  max-height: none;        /* Elimina cualquier tope de altura si lo tenías */
-  display: block;          /* Elimina espacios fantasmas debajo */
+  width: 100%;            
+  height: auto;            
+  max-height: none;        
+  display: block;          
 }
 
+.identityNexaNav {
+  margin-bottom: 10px;         
+}
+
+.identityGroupText {
+  position: absolute;
+  top: 42%;                     
+  left: 50%;                   
+  transform: translate(-50%, -50%); 
+  text-align: center;          
+  width: 100%;                 
+  z-index: 20;                 
+}
+
+
+.identityNexaNav {
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 1;
+  color: #00674F; 
+}
+
+
+.identityNexaNavTwo {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic; 
+  line-height: 1.2;
+  color: #00674F; 
+}
+
+
+.identityNexaNav, 
+.identityNexaNavTwo {
+  margin: 0;
+  padding: 0;
+}
 
 .identityMainContainer {
   display: flex;
@@ -161,54 +199,49 @@ body {
 
 .identityIntroZone{
   display: flex;          
-  flex-direction: row;    /* Coloca la foto a la izquierda y el texto a la derecha */
-  gap: 20px;              /* Espacio de separación entre la foto y el texto */
-  align-items: center;    /* Centra verticalmente el texto respecto a la foto */
-    
-}
+  flex-direction: row;    
+  gap: 20px;              
+  align-items: center;    
+ }
 
 
 .identityIntroZone img {
   width: 506px;
   height: 355px;
   border-radius: 20px;
-  object-fit: cover;      /* Evita que la foto se deforme o estire */
+  object-fit: cover;      
 }
-
 
 .identityFlagZone {
   display: flex;          
   flex-direction: row;    
   gap: 20px;              
   align-items: center;    
-  justify-content: space-between; /* Empuja el texto a un extremo y la foto al otro */
+  justify-content: space-between; 
   background-color: white;
    
 }
 
 
 .identityFlagZone div {
-  flex: 1; /* Hace que el texto ocupe todo el espacio disponible restante */
+  flex: 1; 
 }
 
 
 .identityFlagZone img {
   width: 100%;            
-  max-width: 506px;       /* Tu medida original: no medirá más de esto */
+  max-width: 506px;       
   height: 355px;          
   border-radius: 20px;
   object-fit: cover;      
 }
-
 
 .identityAnthemZone{
   display: flex;          
   flex-direction: row;    
   gap: 20px;              
   align-items: center;    
-    
 }
-
 
 .identityAnthemZone img {
   width: 506px;
@@ -223,7 +256,7 @@ body {
   flex-direction: row;    
   gap: 20px;              
   align-items: center;    
-  justify-content: space-between; /* Empuja el texto a un extremo y la foto al otro */
+  justify-content: space-between; 
     
 }
 
@@ -234,12 +267,11 @@ body {
 
 
 .identitySloganZone img {
-  width: 100%;            /* Permite que sea responsiva */
-  max-width: 506px;       /* Tu medida original: no medirá más de esto */
+  width: 100%;            
+  max-width: 506px;       
   border-radius: 20px;
-  height: auto;     /*HABIA PROBLEMAS CON LINEA DE TEXTO SUPERIOR, TUVE QUE USAR ESTO */
-  object-fit: contain;  /*HABIA PROBLEMAS CON LINEA DE TEXTO SUPERIOR, TUVE QUE USAR ESTO */
-  
+  height: auto;     
+  object-fit: contain;    
 }
 
 .identityFlagZone,
@@ -251,21 +283,21 @@ body {
 }
 
 .identityFlagZone {
-  margin-top: 0; /* Separa únicamente la bandera del primer hijo */
-  border-radius: 8px 8px 0 0; /* Esquinas superiores redondeadas */
+  margin-top: 0; 
+  border-radius: 8px 8px 0 0; 
 }
 
 .identitySloganZone {
-  border-radius: 0 0 8px 8px; /* Esquinas inferiores redondeadas */
+  border-radius: 0 0 8px 8px; 
 }
 
-/* Regla común para los 4 bloques: Fondo blanco y espacio interno generoso */
+
 .identityIntroZone,
 .identityFlagZone,
 .identityAnthemZone,
 .identitySloganZone {
   background-color: white;
-  padding: 30px; /* Espacio para que el texto y las imágenes no toquen los bordes */
+  padding: 30px; 
   box-sizing: border-box;
 }
 
@@ -275,12 +307,12 @@ body {
 }
 
 .identityFlagZone {
-  margin-top: 0; /* Mantiene la franja gris de 30px intacta respecto al hijo 1 */
-  border-radius: 8px 8px 0 0; /* Redondea solo las esquinas superiores */
+  margin-top: 0; 
+  border-radius: 8px 8px 0 0; 
 }
 
 .identitySloganZone {
-  border-radius: 0 0 8px 8px; /* Redondea solo las esquinas inferiores */
+  border-radius: 0 0 8px 8px; 
 }
 
 .identityBoldText {
@@ -289,6 +321,6 @@ body {
 
 .identityMidpoint {
     color: #333333;
-    font-weight: normal; /* Evita que herede la negrita del texto azul */
-    padding: 0 4px;      /* Le da un pequeño espacio respacio a los lados */
+    font-weight: normal; 
+    padding: 0 4px;      
 }
