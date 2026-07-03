@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}       
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #1e4b9c;
+    color: #111;
+    }
+
+.page {
+    width: min(95%, 1200px);
+    margin: 20px auto;
+}
+
+.hero {
+    height: 380px;
+    background-image: url("img/economyBanner.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 30px;
+}
+
+.navbar a {
+    font-weight: 700;
+    color: #006b5f;
+    text-decoration: underline;
+}
+
+.hero-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #007060;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    line-height: 1;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.content {
+    margin-top: 20px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;    
+    border-radius: 10px;
+    padding: 25px;
+    min-height: 160px;
+    padding: 25px;
+}
+
+.card + .card {
+    margin-top: 25px;
+}
+
+.card-intro {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 40px;
+    align-items: center;
+    overflow: hidden;
+}
+.card-intro img{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+    border-radius: 10px;
+}
+
+.card-aether {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 40px;
+    align-items: center;
+    overflow: hidden;
+}
+.card-aether img{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+    border-radius: 10px;
+}
+.card-text h2 {
+  color: #007060;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.card-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.roboto-normal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-title {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-sub-title {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
