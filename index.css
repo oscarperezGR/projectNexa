@@ -1,0 +1,38 @@
+body {background-color: #1e4b9c}
+header {border-radius: 12px; overflow: hidden; max-width: 1450px; margin: 20px auto; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);}
+.nav {position: absolute; top: 30px; left: 0px; right: 0px; width: 100%; display: flex; justify-content: space-around; padding: 3px 0; background-color: rgba(228, 228, 228, 0.502); border-radius: 10px; align-items: center; border: 1px solid rgb(228, 228, 228)0%, 89%; margin: 0 auto; max-width: 1400px}
+.nav a {color: #0b674f; font-weight: bold; text-decoration: underline; font-size: 20px; font-family: 'Roboto', sans-serif;}
+.nav a:hover {color: red; text-decoration: none; font-size: 20px; font-family: 'Roboto', sans-serif;}
+.banner {position: relative;}
+.banner img {width: 100%; display: block;}
+.banner-title {position: absolute; top: 160px; left: 60px; color: #0b674f; text-align: left; font-family: 'Roboto', sans-serif; font-size: 100px; font-weight: normal;}
+.banner-subtitle {position: absolute; top: 330px; left: 60px; color: #0b674f; text-align: right; font-family: 'Roboto', sans-serif; font-size: 30px; font-weight: normal;}
+.banner-subtitle1 {position: absolute; top: 365px; left: 60px; color: #0b674f; text-align: right; font-family: 'Roboto', sans-serif; font-size: 30px; font-weight: normal;}
+
+main {background-color: #e4e4e4; max-width: 1450px; border-radius: 12px; margin: 20px auto; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4); border: 1px solid #e4e4e4; padding: 0px;}
+.welcome {background-color: #ffffff; border-radius: 12px; margin: 30px; margin-top: 30px; margin-bottom: 30px; padding: 50px; font-family: 'Roboto', sans-serif; font-size: 22px;}
+.welcome img {float: left; margin-right: 50px; margin-bottom: 50px; border-radius: 12px; width: 300px; height: auto;}
+.welcome h2 {font-size: 38px; color: #0b674f; margin-bottom: 40px;}
+
+.sections {background-color: #e4e4e4; border-radius: 12px; padding: 10px; font-family: 'Roboto', sans-serif; font-size: 20px; flex-direction: row; display: flex; justify-content: stretch; margin: 40px; gap: 0px;}
+.sections img {border-radius: 10px; width: 300px; height: auto; align-self: center; margin: 0px;}
+.sections h2 {color: #0b674f; font-size: 26px; margin-bottom: 20px;}
+.sections p {margin-bottom: 20px; line-height: 34px; font-size: 20px; text-align: left; text-justify: inter-word;}
+
+.sections2 {background-color: #e4e4e4; border-radius: 12px; padding: 10px; font-family: 'Roboto', sans-serif; font-size: 20px; flex-direction: row; display: flex; justify-content: stretch; margin-left: 250px; margin-right: 250px; gap: 0px;}
+.sections2 img {border-radius: 10px; width: 300px; height: auto; align-self: center; margin: 0px;}
+.sections2 h2 {color: #0b674f; font-size: 26px; margin-bottom: 20px;}
+.sections2 p {margin-bottom: 20px; line-height: 34px; font-size: 20px; text-align: left; text-justify: inter-word;}
+
+.identity {background-color: #ffffff; border-radius: 12px; margin: 20px; margin-top: 30px; margin-bottom: 30px; padding: 50px; font-family: 'Roboto', sans-serif; font-size: 20px; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4); flex: 1; display: flex; flex-direction: column;}
+.geography {background-color: #ffffff; border-radius: 12px; margin: 30px; margin-top: 30px; margin-bottom: 30px; padding: 50px; font-family: 'Roboto', sans-serif; font-size: 20px; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4); flex: 1; display: flex; flex-direction: column;}
+.government {background-color: #ffffff; border-radius: 12px; margin: 30px; margin-top: 30px; margin-bottom: 30px; padding: 50px; font-family: 'Roboto', sans-serif; font-size: 20px; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4); flex: 1; display: flex; flex-direction: column;}
+.economy {background-color: #ffffff; border-radius: 12px; margin: 30px; margin-top: 30px; margin-bottom: 30px; padding: 50px; font-family: 'Roboto', sans-serif; font-size: 20px; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);}
+.history {background-color: #ffffff; border-radius: 12px; margin: 30px; margin-top: 30px; margin-bottom: 30px; padding: 50px; font-family: 'Roboto', sans-serif; font-size: 20px; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);}
+
+.identity img {width: 320px; height: 230px;}
+
+footer {background-color: #e4e4e4; color: #000000; padding: 0px; display: flex; font-family: 'Roboto', sans-serif; font-size: 16px; border-radius: 12px; max-width: 1450px; margin: 30px auto; box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);}
+.footer1 {flex: 1; text-align: left; margin-left: 120px;}
+.footer2 {flex: 2; text-align: left; font-size: 18px; margin-left: 400px;} 
+.footer3 {flex: 3; text-align: left; margin-left: 180px; margin-top: 30px;}

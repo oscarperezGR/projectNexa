@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.identityRobotoTitleNexaBig{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 128px;
+  line-height: 1;    
+  margin: 0;                    
+  padding: 0;                   
+
+}
+
+.identityRobotoTitleCodeCons{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	font-size: 40px;
+	line-height: 1;    
+  margin: -5px 0 0 0;          
+  padding: 0;                   
+}
+
+
+
+.identityRobotoTitleIntro{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	font-size: 48px;
+	line-height: 1;    
+	color: #00674F;
+}
+
+.identityRobotoSubtitle {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 32px;	
+  line-height: 1;    
+}
+
+.identityRobotoNormal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  text-align: justify;
+  font-size: 24px;
+  line-height: 1;    	
+}
+
+.identityRobotoNormalVignetteWithDot {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  text-align: justify;
+  font-size: 24px;
+  padding-left: 20px;   
+  margin: 0;
+}
+
+.identityRobotoNormalVignetteWithDot li {
+  list-style-type: disc; 
+  margin-bottom: 6px;   
+  line-height: 1;      
+}
+
+body {
+    margin: 0;
+}
+
+.identityNav {
+  position: absolute;   
+  top: 40px;            
+  left: 50%;            
+  transform: translateX(-50%); 
+  z-index: 10;          
+  background-color: #E4E4E480; 
+  border-radius: 20px;         
+  padding: 12px 24px;
+  width: 90%;                  
+  max-width: 1740px;
+}
+
+
+.identityNavLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.identityLinks:hover {
+  color: red;
+}
+
+.identityLinks {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 32px;	
+  line-height: 1;    
+  color: #00674F;
+  text-decoration: underline;
+  text-underline-offset: 5px; 
+  padding: 6px 12px;
+  display: inline-block;
+}
+
+.identityBanner {
+  width: 100%;             
+  max-width: 1850px;       
+  margin: 0 auto;          
+  position: relative;      
+  overflow: hidden;        
+  
+  box-sizing: border-box;  
+  border-width: 10px;
+  border-style: solid;
+  border-color: #1E4B9C;    
+}
+   
+ 
+.identityBanner img {
+  width: 100%;            
+  height: auto;            
+  max-height: none;        
+  display: block;          
+}
+
+.identityNexaNav {
+  margin-bottom: 10px;         
+}
+
+.identityGroupText {
+  position: absolute;
+  top: 42%;                     
+  left: 50%;                   
+  transform: translate(-50%, -50%); 
+  text-align: center;          
+  width: 100%;                 
+  z-index: 20;                 
+}
+
+
+.identityNexaNav {
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 1;
+  color: #00674F; 
+}
+
+
+.identityNexaNavTwo {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic; 
+  line-height: 1.2;
+  color: #00674F; 
+}
+
+
+.identityNexaNav, 
+.identityNexaNavTwo {
+  margin: 0;
+  padding: 0;
+}
+
+.identityMainContainer {
+  display: flex;
+  flex-direction: column; 
+  padding: 20px;
+  background-color: #E4E4E4;
+  
+} 
+
+
+.identityIntroZone{
+  display: flex;          
+  flex-direction: row;    
+  gap: 20px;              
+  align-items: center;    
+ }
+
+
+.identityIntroZone img {
+  width: 506px;
+  height: 355px;
+  border-radius: 20px;
+  object-fit: cover;      
+}
+
+.identityFlagZone {
+  display: flex;          
+  flex-direction: row;    
+  gap: 20px;              
+  align-items: center;    
+  justify-content: space-between; 
+  background-color: white;
+   
+}
+
+
+.identityFlagZone div {
+  flex: 1; 
+}
+
+
+.identityFlagZone img {
+  width: 100%;            
+  max-width: 506px;       
+  height: 355px;          
+  border-radius: 20px;
+  object-fit: cover;      
+}
+
+.identityAnthemZone{
+  display: flex;          
+  flex-direction: row;    
+  gap: 20px;              
+  align-items: center;    
+}
+
+.identityAnthemZone img {
+  width: 506px;
+  height: 355px;
+  border-radius: 20px;
+  object-fit: cover;      
+}
+
+
+.identitySloganZone {
+  display: flex;          
+  flex-direction: row;    
+  gap: 20px;              
+  align-items: center;    
+  justify-content: space-between; 
+    
+}
+
+
+.identitySloganZone div {
+  flex: 1; 
+}
+
+
+.identitySloganZone img {
+  width: 100%;            
+  max-width: 506px;       
+  border-radius: 20px;
+  height: auto;     
+  object-fit: contain;    
+}
+
+.identityFlagZone,
+.identityAnthemZone,
+.identitySloganZone {
+  background-color: white;
+  padding: 15px;
+  
+}
+
+.identityFlagZone {
+  margin-top: 0; 
+  border-radius: 8px 8px 0 0; 
+}
+
+.identitySloganZone {
+  border-radius: 0 0 8px 8px; 
+}
+
+
+.identityIntroZone,
+.identityFlagZone,
+.identityAnthemZone,
+.identitySloganZone {
+  background-color: white;
+  padding: 30px; 
+  box-sizing: border-box;
+}
+
+
+.identityIntroZone {
+  border-radius: 8px;
+}
+
+.identityFlagZone {
+  margin-top: 0; 
+  border-radius: 8px 8px 0 0; 
+}
+
+.identitySloganZone {
+  border-radius: 0 0 8px 8px; 
+}
+
+.identityBoldText {
+  font-weight: bold;
+}
+
+.identityMidpoint {
+    color: #333333;
+    font-weight: normal; 
+    padding: 0 4px;      
+}
+
+footer {
+  background-color: #E4E4E4;
+  border-radius: 20px;
+  margin: 0 1.823vw 1.823vw 1.823vw;
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+footer section p {
+  margin: 0;
+}
+.identityFooterName {
+  padding: 0;
+  margin: 0;
+  width: 7%;
+}
+.identityFooterName p:first-child {
+  font-weight: 700;
+  font-size: 30px;
+}
+.identityFooterName p:last-child {
+  font-style: italic;
+}
